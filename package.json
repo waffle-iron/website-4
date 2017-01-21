@@ -1,5 +1,5 @@
 {
-  "name": "joe-walton-web",
+  "name": "website",
   "version": "0.0.1",
   "description": "Website for Joe Walton Projects and CV",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jwalton9/joe-walton-web.git"
+    "url": "git+https://github.com/jwalton9/website.git"
   },
   "author": "Joe Walton",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jwalton9/joe-walton-web/issues"
+    "url": "https://github.com/jwalton9/website/issues"
   },
-  "homepage": "https://github.com/jwalton9/joe-walton-web#readme",
+  "homepage": "https://github.com/jwalton9/website#readme",
   "dependencies": {
     "classnames": "^2.2.5",
     "express": "^4.14.0",
