@@ -1,0 +1,78 @@
+extends: "eslint:recommended"
+rules:
+  indent: [2, 4]
+  quotes: [2, "single"]
+  linebreak-style: [2, "unix"]
+  semi: [2, "always"]
+  no-console: 1
+  strict: [2, "never"]
+  no-underscore-dangle: 0
+  prefer-const: 2
+  no-use-before-define: 2
+  no-const-assign: 2
+  arrow-spacing: 2
+  prefer-arrow-callback: 2
+  prefer-template: 2
+  brace-style: [2, "1tbs", {"allowSingleLine": false}]
+  id-blacklist: [2, "only"]
+  no-spaced-func: 2
+  no-empty: 2
+  array-bracket-spacing: [2, "never"]
+  space-in-parens: [2, "never"]
+  quote-props: [2, "as-needed"]
+  key-spacing: [2, {"beforeColon": false}]
+  space-unary-ops: 2
+  comma-spacing: [2, {"before": false, "after": true}]
+  no-mixed-spaces-and-tabs: 2
+  no-trailing-spaces: 2
+  comma-dangle: [2, "never"]
+  yoda: 2
+  no-with: 2
+  no-multiple-empty-lines: 2
+  one-var: [2, "never"]
+  space-before-blocks: 2
+  wrap-iife: [2, "any"]
+  comma-style: [2, "last"]
+  space-infix-ops: 2
+  camelcase: 2
+  eol-last: 2
+  new-cap: [2, {"capIsNew": false}]
+  dot-notation: 2
+  semi-spacing: 2
+  curly: 2
+  keyword-spacing: 2
+  object-curly-spacing: [2, "always"]
+  lines-around-comment: [2, {"beforeBlockComment": false}]
+  consistent-this: [2, "do-not-do-this"]
+  prefer-rest-params: 2
+  arrow-parens: [2, "as-needed"]
+  eqeqeq: 2
+  no-var: 2
+  radix: 2
+  object-shorthand: [2, "always"]
+  jsx-quotes: [2, "prefer-double"]
+  react/jsx-no-duplicate-props: 2
+  react/jsx-uses-react: 2
+  react/jsx-uses-vars: 2
+  react/jsx-key: 2
+  react/jsx-space-before-closing: [2, "always"]
+  react/no-deprecated: 2
+  react/no-direct-mutation-state: 2
+  react/react-in-jsx-scope: 2
+  react/wrap-multilines: 2
+  react/self-closing-comp: 2
+  react/require-render-return: 2
+  filenames/match-regex: [2, "^[a-z\\-\\.]+$"]
+  mocha/no-exclusive-tests: "error"
+env:
+  browser: true
+  es6: true
+  node: true
+  mocha: true
+ecmaFeatures:
+  jsx: true
+parser: "babel-eslint"
+plugins:
+  - eslint-plugin-react
+  - filenames
+  - mocha
