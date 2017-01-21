@@ -1,6 +1,6 @@
 {
   "name": "website",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Website for Joe Walton Projects and CV",
   "main": "index.js",
   "scripts": {
